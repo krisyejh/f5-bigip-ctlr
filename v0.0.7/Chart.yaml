@@ -2,6 +2,7 @@ apiVersion: v1
 description: Deploy the F5 Networks BIG-IP Controller for Kubernetes and OpenShift (k8s-bigip-ctlr). Code base by F5.
 appVersion: 0.0.7
 version: 0.0.7
+name: f5-cis-ctlr
 
 home: https://clouddocs.f5.com/
 icon: file://../f5.logo.png
