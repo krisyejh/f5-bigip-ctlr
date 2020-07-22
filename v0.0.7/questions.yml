@@ -58,5 +58,5 @@ questions:
   description: "Provide F5 CIS Image Repository User"
   type: string
   label: F5 Image Repository User
-  group: "F5 BIGIP CIS CONFIG
+  group: "F5 BIGIP CIS CONFIG"
 
