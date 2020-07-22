@@ -12,14 +12,12 @@ questions:
   type: secret
   label: F5 BIGIP Login Secert
   group: "F5 BIGIP Device Auth"
-
 - variable: rbac.create
   default: "true"
   description: "Enable RBAC for F5 BIGP Auth"
   type: boolean
   label: Enable RBAC
   group: "F5 BIGIP Device Auth"
-
 - variable: serviceAccount.name
   default: ""
   description: "If not set and create is true, a name is generated using the fullname template"
@@ -27,7 +25,6 @@ questions:
   label: ServiceAccount Name
   show_if: "rbac.create=true"
   group: "F5 BIGIP Device Auth"
-
 - variable: args.bigip_url
   default: ""
   required: true
@@ -35,7 +32,6 @@ questions:
   type: string
   label: F5 BIGIP URL
   group: "F5 BIGIP CIS CONFIG"
-
 - variable: args.bigip_partition
   default: "f5-bigip-ctlr"
   required: true
@@ -43,7 +39,6 @@ questions:
   type: string
   label: F5 BIGIP Partition
   group: "F5 BIGIP CIS CONFIG"
-
 - variable: image.repo
   default: "k8s-bigip-ctlr"
   required: true
@@ -51,7 +46,6 @@ questions:
   type: string
   label: F5 Image Repository
   group: "F5 BIGIP CIS CONFIG"
-
 - variable: image.user
   default: "f5networks"
   required: true
