@@ -13,7 +13,7 @@ questions:
   label: F5 BIGIP Login Secert
   group: "F5 BIGIP Device Auth"
 - variable: namespace
-  default: "f5-bigip-ctlr"
+  default: "f5-cis-ctlr"
   required: true
   description: "Namespace to Host all the Resources"
   type: string
