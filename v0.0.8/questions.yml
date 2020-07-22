@@ -16,7 +16,7 @@ questions:
   default: "f5-bigip-ctlr"
   required: true
   description: "Namespace to Host all the Resources"
-  type: secret
+  type: string
   label: Namespace
   group: "F5 BIGIP Device Auth"
 - variable: rbac.create
@@ -69,4 +69,10 @@ questions:
   description: "Provide F5 CIS Image Repository User"
   type: string
   label: F5 Image Repository User
+  group: "F5 BIGIP CIS CONFIG"
+- variable: version
+  default: "latest"
+  description: "Provide F5 CIS Image Version"
+  type: string
+  label: F5 Controller Version
   group: "F5 BIGIP CIS CONFIG"
